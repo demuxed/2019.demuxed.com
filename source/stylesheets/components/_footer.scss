@@ -8,11 +8,11 @@
   
   .container {
     @include mq($large) {
-      padding: 10em 2em;
+      padding: 8em 2em;
     }  
     
     @include mq($xl-large) {
-      padding: 14em 2em;
+      padding: 10em 2em;
     }
   }
   
@@ -24,8 +24,9 @@
       display: block;
       position: absolute;
       bottom: 0;
-      right: -15%;
-      width: 50%;
+      right: -10%;
+      width: 40%;
+      height: 90%;
     }
     
     @include mq($xl-large) {
@@ -46,17 +47,13 @@
       display: block;
       position: absolute;
       bottom: 0;
-      // left: -35%;
-      // max-width: 38em;
+      width: 30%;
     }
     
     @include mq($x-large) {
-      // left: -24%;
     }
     
     @include mq($xl-large) {
-    //  left: -25em; 
-    //  max-width: 70em;
     }
   }
   

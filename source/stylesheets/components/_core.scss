@@ -1452,11 +1452,12 @@ h1, h2, h3, h4, h5 {
     }
 
     @include mq($medium) {
-      margin-left: 35%;
+      margin-left: 50%;
       margin-top: -14%;
     }
 
     @include mq($large) {
+      width: 80%;
       margin-top: -26%;
     }
   }
@@ -1738,9 +1739,9 @@ h1, h2, h3, h4, h5 {
     @include mq($large) {
       position: absolute;
       display: block;
-      top: 8%;
-      left: -15%;
-      width: 30%;
+      top: -7%;
+      left: -10%;
+      width: 40%;
     }
   }
 
@@ -1783,10 +1784,6 @@ h1, h2, h3, h4, h5 {
 
 
   .container {
-//    max-width: 100em;
-//    @include mq($large) {
-//      padding-bottom: 16em;
-//    }
   }
 
   .sponsors__sponsor-list {
@@ -1877,7 +1874,6 @@ h1, h2, h3, h4, h5 {
     }
 
     @include mq($large) {
-      //right: 2%;
     }
   }
 
@@ -1913,12 +1909,10 @@ h1, h2, h3, h4, h5 {
 
   .contact-form {
     @include mq($medium) {
-      //max-width: 75%;
       margin: 0 auto;
     }
 
     @include mq($med-large) {
-      //max-width: 44%;
     }
 
     input[type="text"], textarea{

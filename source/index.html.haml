@@ -9,10 +9,9 @@ title: Demuxed, The Conference for Video Engineers
       %h1.home-hero__heading
         The Conference for Video Engineers
       %h2.home-hero__sub-heading
-        October 17th and 18th, 2018
+        October 23rd and 24th, 2019
         %br.break
-        Bespoke, San Francisco, CA
-      %a.home-hero__btn{href:"http://tickets.demuxed.com/"} Tickets
+        The Midway, San Francisco, CA
 
     = image_tag("/images/hero-illustration.svg", alt: "Demuxed illustration", class: "hero-illustration")
     = image_tag("/images/hero-shapes.svg", alt: "", class: "hero-shapes")
@@ -44,106 +43,16 @@ title: Demuxed, The Conference for Video Engineers
       %h4.share-box__title
         Share using
       %h3.share-box__text
-        \#Demuxed2018
+        \#Demuxed2019
 
     = image_tag("/images/why-photo.jpg", alt: "Demuxed audience", class: "why-photo")
     = image_tag("/images/why-photo2.jpg", alt: "Demuxed conference speaker", class: "why-photo2")
-    = image_tag("/images/why-photo3.jpg", alt: "Demuxed audience", class: "why-photo3")
+    = image_tag("/images/why-photo4.jpg", alt: "Demuxed audience", class: "why-photo3")
     %div.grey-box.why-box1
     %div.grey-box.why-box2
     %div.pink-box.why-box3
     %div.purple-box.why-box4
     %div.pink-box.why-box5
-
-
-%section.speakers#speakers
-  %div.container
-    = image_tag("/images/speakers-photo.jpg", alt: "Demuxed conference location", class: "speaker-photo")
-
-    %h2.section-heading
-      = data.speakers.length
-      %span
-        Amazing speakers
-
-    %ul.speakers-list
-      - data.speakers.each do |speaker|
-        = partial 'partials/speaker', locals: {speaker: speaker}
-
-
-    = image_tag("/images/zoetrope.svg", alt: "", class: "speaker-illustration")
-    = image_tag("/images/drone.svg", alt: "", class: "speaker-illustration2")
-    = image_tag("/images/speakers-photo2.jpg", alt: "", class: "speaker-photo2")
-    = image_tag("/images/speakers-photo3.jpg", alt: "", class: "speaker-photo3")
-    %div.purple-box.speaker-box1
-    %div.pink-box.speaker-box2
-    %div.grey-box.speaker-box3
-    %div.purple-box.speaker-box4
-    %div.pink-box.speaker-box5
-
-%section.schedule#schedule
-  %div.schedule-day-one
-    %div.container
-      %h2.section-heading
-        Demuxed
-        %span
-          Schedule
-      %div.schedule-text
-        %h2 Our Schedule
-        %p
-          We take our talk selection and schedule-building process very seriously. This year we received over <strong>100</strong> talk submissions, and <strong>27</strong> individuals from across the online video industry reviewed those (anonymized) submissions for a total of nearly <strong>1300</strong> reviews. A smaller group from that committee then took those aggregated reviews and helped pick the very best schedule possible, optimizing for talks that are relevant, interesting, and diverse.
-
-        %p
-          Keep in mind, the individual session times and their order are subject to change, so make sure to check back here for any updates.
-
-        %p
-          = image_tag 'lightning.svg', alt: 'Lightning'
-          indicates a 10 minute talk.
-
-      %ul.schedule-list
-        %li.schedule-list__title
-          %h2.section-sub-heading
-            Wednesday
-            %br October 17th, 2018
-
-        - data.schedule["day_1"].each do |session|
-          = partial 'partials/schedule-entry', locals: { session: session }
-
-      %div.purple-box.schedule-box1
-      %div.pink-box.schedule-box2
-
-  %div.schedule-day-two
-    %div.container
-      %ul.schedule-list
-        %li.schedule-list__title
-          %h2.section-sub-heading
-            Thursday
-            %br October 18th, 2018
-            %span
-              Morning
-
-        - data.schedule["day_2_morning"].each do |session|
-          = partial 'partials/schedule-entry', locals: { session: session }
-
-
-      %ul.schedule-list.pm
-        %li.schedule-list__title
-          %h2.section-sub-heading
-            %span
-              Afternoon
-
-        - data.schedule["day_2_afternoon"].each do |session|
-          = partial 'partials/schedule-entry', locals: { session: session }
-
-
-
-
-      %div.after-party
-        %h2
-          After party!
-        %p
-          This year's after party kicks off at <strong>6pm Thursday</strong> in <a href="https://goo.gl/maps/cGSztEUtoCF2" target="_blank" rel="noopener noreferrer">Covo</a>, which is less than a block away from the conference venue. Space is limited, so as much as we'd love for friends and colleagues to join us, please have your ticket or badge with you.
-
-
 
 %section.location#location
   %div.container
@@ -154,30 +63,24 @@ title: Demuxed, The Conference for Video Engineers
 
     %div.location-text
       %h2
-        Bespoke, SF
+        The Midway, SF
 
       %p
-        Busting at the seams in venues is a great problem to have, but this year we wanted to make sure we had plenty of room to breathe. In addition to being right in the heart of downtown next to BART and Muni, Bespoke is large, configurable and high-tech, with a production room and multiple, dedicated internet connections (shout out to all the people that tried to watch the live stream last year).
+        The Midway is a new, multifaceted creative complex, located in San Francisco’s burgeoning Dogpatch neighborhood. Equal parts creative laboratory and performance space, The Midway is a sprawling 40,000 square-foot venue for the public to engage with a variety of exhibitions, workshops, performances and special events. Housing art, food, music & emerging technologies under one synergistic and collaborative roof, The Midway is the perfect place for San Francisco’s creative communities to collide.
 
-      %p
-        Bespoke is located inside Westfield San Francisco Centre on Level 4 next to Bloomingdale’s Westfield San Francisco Centre
+      %a{href:"https://www.themidwaysf.com"}TheMidwaySF
 
-
-      %a{href:"http://www.bespokesf.co/"}Bespoke.com
-
-    %a.map-link{href:"https://goo.gl/maps/uAVLK7xy6cF2"}
-      = image_tag("/images/map.jpg", alt: "", class: "")
+    %a.map-link{href:"https://goo.gl/maps/Ue9PNKtYmBN2"}
+      = image_tag("/images/2019-map.png", alt: "", class: "")
 
     = image_tag("/images/location-photos.jpg", alt: "", class: "location-photos")
-    = image_tag("/images/location-illustration.svg", alt: "", class: "location-illustration")
+    = image_tag("/images/painted-ladies.svg", alt: "", class: "location-illustration")
     %div.purple-box.location-box1
     %div.pink-box.location-box2
 
-
-
 %section.about-us#about-us
   %div.container
-    = image_tag("/images/about-us-photo.jpg", alt: "Demuxed conference", class: "about-us-photo")
+    = image_tag("/images/about-us-photo4.jpg", alt: "Demuxed conference", class: "about-us-photo")
 
     %h2.section-heading
       About
@@ -196,20 +99,20 @@ title: Demuxed, The Conference for Video Engineers
         Every year we get a group together that's kind enough to do things like schedule planning, help brainstorm cool swag, and, most importantly, argue heatedly over which talk submissions should make the final cut.
 
     = image_tag("/images/about-us-photo2.jpg", alt: "Demuxed conference speaker", class: "about-us-photo2")
-    = image_tag("/images/about-us-photo3.jpg", alt: "Demuxed attendees", class: "about-us-photo3")
+    = image_tag("/images/about-us-photo.jpg", alt: "Demuxed attendees", class: "about-us-photo3")
     %div.grey-box.about-box1
     %div.pink-box.about-box2
 
 
 %section.sponsors#sponsors
   %div.container
-    = image_tag("/images/film-reel.svg", alt: "Film reel illustration", class: "sponsors-illustration")
+    = image_tag("/images/computer-chip.svg", alt: "ASIC Chip illustration", class: "sponsors-illustration")
 
     %div.grey-box.sponsors-box1
     %div.purple-box.sponsors-box2
 
     %h2.section-heading
-      Amazing 2018
+      Amazing 2019
       %span Sponsors
 
     %h4.sponsors__type
@@ -217,64 +120,51 @@ title: Demuxed, The Conference for Video Engineers
 
     %ul.sponsors__sponsor-list.platinum
       %li
-        = link_to(image_tag("/images/comcast.svg", alt: "Comcast", class: ""), "https://xfinity.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/google.svg", alt: "Google", class: ""), "https://google.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+      %li
+        = link_to(image_tag("/images/sponsor-logos/netflix.svg", alt: "Netflix", class: ""), "https://netflix.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Gold
 
     %ul.sponsors__sponsor-list.gold
       %li
-        = link_to(image_tag("/images/google.svg", alt: "Google", class: ""), "https://google.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/bitmovin.svg", alt: "Bitmovin", class: ""), "https://bitmovin.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/bitmovin.svg", alt: "Bitmovin", class: ""), "https://bitmovin.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-      %li
-        = link_to(image_tag("/images/netflix.svg", alt: "Netflix", class: ""), "https://netflix.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-
+        = link_to(image_tag("/images/sponsor-logos/haivision.png", alt: "Haivision", class: ""), "https://www.haivision.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Silver
 
     %ul.sponsors__sponsor-list.silver
       %li
-        = link_to(image_tag("/images/wowza.svg", alt: "Wowza", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/beamr.svg", alt: "Beamr", class: ""), "https://beamr.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/fastly.svg", alt: "Fastly", class: ""), "https://fastly.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/cbs.svg", alt: "CBS Interactive", class: ""), "https://cbsinteractive.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/cbs.svg", alt: "CBS Interactive", class: ""), "https://cbsinteractive.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/fastly.svg", alt: "Fastly", class: ""), "https://fastly.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/peer5.svg", alt: "Peer5", class: ""), "https://peer5.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/istream.png", alt: "iStreamPlanet", class: ""), "https://www.istreamplanet.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/jwplayer.svg", alt: "JWPlayer", class: ""), "https://jwplayer.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/vimeo.svg", alt: "Vimeo", class: ""), "https://vimeo.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+      %li
+        = link_to(image_tag("/images/sponsor-logos/wowza.svg", alt: "Wowza", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
 
     %h4.sponsors__type
       Bronze
     %ul.sponsors__sponsor-list.bronze
       %li
-        = link_to(image_tag("/images/unified-streaming.png", alt: "Unified Streaming", class: ""), "http://unified-streaming.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/id3as.png", alt: "id3as", class: ""), "http://id3as.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/hulu.svg", alt: "", class: ""), "https://hulu.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-      %li
-        = link_to(image_tag("/images/m2a-media.svg", alt: "", class: ""), "http://m2amedia.tv/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-      %li
-        = link_to(image_tag("/images/philo.svg", alt: "", class: ""), "https://philo.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-      %li
-        = link_to(image_tag("/images/vimeo.svg", alt: "", class: ""), "https://vimeo.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
-
-
-    %h4.sponsors__type
-      Party
-
-    %ul.sponsors__sponsor-list.party
-      %li
-        = link_to(image_tag("/images/brightcove.png", alt: "", class: ""), "https://brightcove.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/peer5.svg", alt: "Peer5", class: ""), "https://peer5.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Conference organizers
 
     %ul.sponsors__sponsor-list.conf
       %li
-        = link_to(image_tag("/images/mux.svg", alt: "", class: ""), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/mux.svg", alt: "Mux", class: ""), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
 - data.talks.each do |talk|
   = partial 'partials/talk-modal', locals: {talk: talk, speakers: data.speakers}

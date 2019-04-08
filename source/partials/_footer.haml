@@ -9,12 +9,8 @@
         = mail_to("info@demuxed.com", "Email us")
       %li
         = link_to("Podcast", "https://www.heavybit.com/library/podcasts/demuxed/")
-      %li
+      %li	
         = link_to("Meetups", "/meetups")
-
-      %li
-        %a.signup-btn{href:"http://tickets.demuxed.com/"} Register now
-
 
     %ul.page-foot__nav
       %li
@@ -35,14 +31,15 @@
 
       %li.facebook
         = link_to("", "https://www.facebook.com/demuxed/", class: "facebook", target: "_blank")
-      / %li.instagram
-      /   = link_to("", "https://www.instagram.com", class: "instagram", target: "_blank")
+
+      %li.instagram
+        = link_to("", "https://www.instagram.com/demuxed_conf/", class: "instagram", target: "_blank")
 
     %p.nerds
       Organized with
       %span
         = image_tag("/images/heart.svg", alt: "", class: "")
       by video nerds in SF
-    = image_tag("/images/footer-illustration.svg", alt: "Demuxed van illustration", class: "footer-illustration")
-    = image_tag("/images/footer-illustration2.svg", alt: "Demuxed robot illustration", class: "footer-illustration2")
+    = image_tag("/images/alcatraz.svg", alt: "Demuxed tv illustration", class: "footer-illustration")
+    = image_tag("/images/tv.svg", alt: "Demuxed alcrataz illustration", class: "footer-illustration2")
 

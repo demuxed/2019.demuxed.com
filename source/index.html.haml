@@ -120,51 +120,51 @@ title: Demuxed, The Conference for Video Engineers
 
     %ul.sponsors__sponsor-list.platinum
       %li
-        = link_to(image_tag("/images/google.svg", alt: "Google", class: ""), "https://google.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/google.svg", alt: "Google", class: ""), "https://google.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/netflix.svg", alt: "Netflix", class: ""), "https://netflix.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/netflix.svg", alt: "Netflix", class: ""), "https://netflix.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Gold
 
     %ul.sponsors__sponsor-list.gold
       %li
-        = link_to(image_tag("/images/bitmovin.svg", alt: "Bitmovin", class: ""), "https://bitmovin.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/bitmovin.svg", alt: "Bitmovin", class: ""), "https://bitmovin.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/haivision.png", alt: "Haivision", class: ""), "https://www.haivision.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/haivision.png", alt: "Haivision", class: ""), "https://www.haivision.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Silver
 
     %ul.sponsors__sponsor-list.silver
       %li
-        = link_to(image_tag("/images/beamr.svg", alt: "Beamr", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/beamr.svg", alt: "Beamr", class: ""), "https://beamr.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/cbs.svg", alt: "CBS Interactive", class: ""), "https://cbsinteractive.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/cbs.svg", alt: "CBS Interactive", class: ""), "https://cbsinteractive.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/fastly.svg", alt: "Fastly", class: ""), "https://fastly.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/fastly.svg", alt: "Fastly", class: ""), "https://fastly.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/istream.png", alt: "iStreamPlanet", class: ""), "https://www.istreamplanet.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/istream.png", alt: "iStreamPlanet", class: ""), "https://www.istreamplanet.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/vimeo.svg", alt: "JWPlayer", class: ""), "https://vimeo.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/vimeo.svg", alt: "Vimeo", class: ""), "https://vimeo.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/wowza.svg", alt: "Wowza", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/wowza.svg", alt: "Wowza", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
 
     %h4.sponsors__type
       Bronze
     %ul.sponsors__sponsor-list.bronze
       %li
-        = link_to(image_tag("/images/id3as.png", alt: "id3as", class: ""), "http://id3as.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/id3as.png", alt: "id3as", class: ""), "http://id3as.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
       %li
-        = link_to(image_tag("/images/peer5.svg", alt: "Peer5", class: ""), "https://peer5.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/peer5.svg", alt: "Peer5", class: ""), "https://peer5.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
     %h4.sponsors__type
       Conference organizers
 
     %ul.sponsors__sponsor-list.conf
       %li
-        = link_to(image_tag("/images/mux.svg", alt: "", class: ""), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        = link_to(image_tag("/images/sponsor-logos/mux.svg", alt: "Mux", class: ""), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
 - data.talks.each do |talk|
   = partial 'partials/talk-modal', locals: {talk: talk, speakers: data.speakers}

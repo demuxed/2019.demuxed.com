@@ -13,7 +13,11 @@ title: Demuxed, The Conference for Video Engineers
         %br.break
         The Midway, San Francisco, CA
     
-    <video src="https://s3-eu-west-1.amazonaws.com/philc-1337/hero-420.mp4" class="hero-illustration" muted autoplay playsinline loop></video>
+    <picture class="hero-illustration">
+    <source srcset="/images/hero-med-hi.webp" type="image/webp">
+    <source srcset="/images/hero-illustration.svg" type="image/svg+xml">
+    <img src="/images/hero-illustration.svg" alt="Alt Text!">
+    </picture>
     = image_tag("/images/hero-shapes.svg", alt: "", class: "hero-shapes")
     = image_tag("/images/hero-shapes2.svg", alt: "", class: "hero-shapes2")
 

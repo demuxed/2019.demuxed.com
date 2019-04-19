@@ -12,8 +12,12 @@ title: Demuxed, The Conference for Video Engineers
         October 23rd and 24th, 2019
         %br.break
         The Midway, San Francisco, CA
-
-    = image_tag("/images/hero-illustration.svg", alt: "Demuxed illustration", class: "hero-illustration")
+    
+    <picture class="hero-illustration">
+    <source srcset="/images/hero-med-hi.webp" type="image/webp">
+    <source srcset="/images/hero-illustration.svg" type="image/svg+xml">
+    <img src="/images/hero-illustration.svg" alt="Demuxed Hero Illustration">
+    </picture>
     = image_tag("/images/hero-shapes.svg", alt: "", class: "hero-shapes")
     = image_tag("/images/hero-shapes2.svg", alt: "", class: "hero-shapes2")
 

@@ -135,12 +135,12 @@
         @include mq($med-large) {
           @include btn;
           opacity: 1;
-          color: #fff;
+          color: #2e1e43;
           padding: 0.4em 1.6em;
           border-color: #fff;
           
           &:hover {
-            color: #fff!important;
+            color: #ff8c67!important;
           }
         }
       }

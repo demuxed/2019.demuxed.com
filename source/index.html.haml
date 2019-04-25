@@ -13,12 +13,7 @@ title: Demuxed, The Conference for Video Engineers
         %br.break
         The Midway, San Francisco, CA
     
-    <picture class="hero-illustration">
-    <source srcset="/images/hero.gif" type="image/gif">
-    <source srcset="/images/hero-med-hi.webp" type="image/webp">
-    <source srcset="/images/hero-illustration.svg" type="image/svg+xml">
-    <img src="/images/hero-illustration.svg" alt="Demuxed Hero Illustration">
-    </picture>
+    = image_tag("/images/hero.gif", alt: "Demuxed Hero Illustration", class: "hero-illustration")
     = image_tag("/images/hero-shapes.svg", alt: "", class: "hero-shapes")
     = image_tag("/images/hero-shapes2.svg", alt: "", class: "hero-shapes2")
 

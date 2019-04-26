@@ -224,6 +224,8 @@ h1, h2, h3, h4, h5 {
 
   .home-hero__text {
 
+    padding-bottom: 1em;
+
     @include mq($x-large) {
       text-align: left;
       position: absolute;

@@ -140,7 +140,6 @@ title: Demuxed, The Conference for Video Engineers
       %li
         = link_to(image_tag("/images/sponsor-logos/aws.png", alt: "Amazon Web Services", class: "", style: "width: 115px;"), "https://aws.amazon.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
-
     %h4.sponsors__type
       Silver
 
@@ -158,7 +157,6 @@ title: Demuxed, The Conference for Video Engineers
       %li
         = link_to(image_tag("/images/sponsor-logos/wowza.svg", alt: "Wowza", class: ""), "https://wowza.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
-
     %h4.sponsors__type
       Bronze
     %ul.sponsors__sponsor-list.bronze
@@ -173,19 +171,22 @@ title: Demuxed, The Conference for Video Engineers
       %li
         = link_to(image_tag("/images/sponsor-logos/limelight.png", alt: "Limelight", class: ""), "https://www.limelight.com/?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
-    %h4.sponsors__type
-      Party
+    %div.party-and-organizer
+      %div.party-or-organizer
+        %h4.sponsors__type
+          Party
+        %ul.sponsors__sponsor-list.party
+          %li
+            = link_to(image_tag("/images/sponsor-logos/twitter-cropped.png", alt: "Twitter", class: "", style: "width: 100px;"), "https://twitter.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
 
-    %ul.sponsors__sponsor-list.party
-      %li
-        = link_to(image_tag("/images/sponsor-logos/twitter-cropped.png", alt: "Twitter", class: "", style: "width: 100px;"), "https://twitter.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+      %div.party-or-organizer
+        %h4.sponsors__type
+          Conference organizers
 
-    %h4.sponsors__type
-      Conference organizers
-
-    %ul.sponsors__sponsor-list.conf
-      %li
-        = link_to(image_tag("/images/sponsor-logos/mux.svg", alt: "Mux", class: ""), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+        %ul.sponsors__sponsor-list.conf
+          %li
+            = link_to(image_tag("/images/sponsor-logos/mux.svg", alt: "Mux", class: "", style: "padding: 22px 0px;"), "https://mux.com?ref=demuxed", target: "_blank", rel: "noopener noreferrer")
+    
 
 - data.talks.each do |talk|
   = partial 'partials/talk-modal', locals: {talk: talk, speakers: data.speakers}

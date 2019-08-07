@@ -1,7 +1,7 @@
 - unless speaker.spacer
   %li.speakers-list__card{id: speaker.name.downcase.split(' ').join('-')}
     %div.speakers-list__img-wrap
-      - if speaker.photomissing
+      - if speaker.missingphoto
         = image_tag("/images/default-avatar.svg", alt: "", class: "speakers-list__img")
       - elsif speaker.customphotourl
         = image_tag(speaker.customphotourl, alt: "", class: "speakers-list__img")

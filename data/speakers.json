@@ -5,7 +5,8 @@
   },
   {
     "name": "Andrey Norkin",
-    "company": "Netflix"
+    "company": "Netflix",
+    "missing": true
   },
   {
     "name": "Andy Warman",
@@ -65,7 +66,8 @@
   },
   {
     "name": "Liwei Guo",
-    "company": "Netflix"
+    "company": "Netflix",
+    "missing": true
   },
   {
     "name": "Lucas Pardue",
@@ -77,7 +79,8 @@
   },
   {
     "name": "Michael Hill",
-    "company": "Twitter"
+    "company": "Twitter",
+    "missing": true
   },
   {
     "name": "Mickie Betz",
@@ -125,7 +128,8 @@
   },
   {
     "name": "Ty Bekiares",
-    "company": "Gogo"
+    "company": "Gogo",
+    "missing": true
   },
   {
     "name": "Will law",

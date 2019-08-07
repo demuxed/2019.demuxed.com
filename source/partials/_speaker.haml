@@ -2,7 +2,10 @@
   %li.speakers-list__card{id: speaker.name.downcase.split(' ').join('-')}
     %div.speakers-list__img-wrap
       -# = image_tag("/images/speakers/#{speaker.name.downcase.split(' ').join('-')}.thumb.jpg", alt: "", class: "speakers-list__img")
-      = image_tag("https://demuxed-headshots-experiment.imgix.net/#{speaker.name.downcase.split(' ').join('-')}.jpg?w=500&h=500&fit=facearea&facepad=2", alt: "", class: "speakers-list__img")
+      - if speaker.missing
+        = image_tag("/images/default-avatar.svg", alt: "", class: "speakers-list__img")
+      - else
+        = image_tag("https://demuxed-headshots-experiment.imgix.net/#{speaker.name.downcase.split(' ').join('-')}.jpg?w=500&h=500&fit=facearea&facepad=2", alt: "", class: "speakers-list__img")
     %h3.speakers-list__name= speaker.name
     %h4.speakers-list__company= speaker.company
     -# %p.speakers-list__talk-title

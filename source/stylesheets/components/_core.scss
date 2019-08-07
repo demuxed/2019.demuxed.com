@@ -779,8 +779,8 @@ h5 {
     margin: 0 auto;
 
     @include mq($large) {
-      margin-left: -8%;
-      margin-bottom: 14%;
+      margin-left: -5%;
+      margin-bottom: 10%;
     }
 
     .speakers-list__card {
@@ -871,7 +871,7 @@ h5 {
 
     .speakers-list__company {
       font-family: $default-serif;
-      color: $brand-purple-light;
+      color: $brand-pink;
       @include font-size(14px);
       line-height: 1.4em;
       margin-bottom: 0.3em;
@@ -948,9 +948,9 @@ h5 {
     @include mq($large) {
       display: block;
       position: absolute;
-      bottom: 14%;
-      right: -7%;
-      width: 50%;
+      bottom: 6%;
+      right: -10%;
+      width: 40%;
     }
 
     @include mq($wide) {
@@ -964,8 +964,8 @@ h5 {
     @include mq($large) {
       display: block;
       position: absolute;
-      bottom: 4%;
-      left: 27%;
+      bottom: 2%;
+      left: 24%;
       width: 22%;
     }
 

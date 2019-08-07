@@ -57,6 +57,29 @@ title: Demuxed, The Conference for Video Engineers
     %div.purple-box.why-box4
     %div.pink-box.why-box5
 
+%section.speakers#speakers
+  %div.container
+    = image_tag("/images/speakers-photo4.jpg", alt: "Demuxed conference location", class: "speaker-photo")
+
+    %h2.section-heading
+      = data.speakers.length
+      %span
+        Amazing speakers
+
+    %ul.speakers-list
+      - data.speakers.each do |speaker|
+        = partial 'partials/speaker', locals: {speaker: speaker}
+
+
+    = image_tag("/images/trolley.svg", alt: "", class: "speaker-illustration")
+    = image_tag("/images/speakers-photo.jpg", alt: "", class: "speaker-photo2")
+    = image_tag("/images/speakers-photo3.jpg", alt: "", class: "speaker-photo3")
+    %div.purple-box.speaker-box1
+    %div.pink-box.speaker-box2
+    %div.grey-box.speaker-box3
+    %div.purple-box.speaker-box4
+    %div.pink-box.speaker-box5
+
 %section.location#location
   %div.container
     %h2.section-heading

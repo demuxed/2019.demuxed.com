@@ -6,7 +6,7 @@
   {
     "name": "Andrey Norkin",
     "company": "Netflix",
-    "missing": true
+    "missingphoto": true
   },
   {
     "name": "Andy Warman",
@@ -63,7 +63,7 @@
   {
     "name": "Liwei Guo",
     "company": "Netflix",
-    "missing": true
+    "missingphoto": true
   },
   {
     "name": "Lucas Pardue",
@@ -119,7 +119,8 @@
   },
   {
     "name": "Te-Yuan Huang",
-    "company": "Netflix"
+    "company": "Netflix",
+    "customphotourl": "https://demuxed-headshots-experiment.imgix.net/te-yuan-huang.jpg?w=200&h=200&fp-x=0.47&fp-y=0.36&fit=crop&fp-z=5&crop=focalpoint&auto=format,compress&q=70"
   },
   {
     "name": "Ty Bekiares",

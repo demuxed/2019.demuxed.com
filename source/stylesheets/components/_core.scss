@@ -871,7 +871,7 @@ h5 {
 
     .speakers-list__company {
       font-family: $default-serif;
-      color: $brand-purple-light;
+      color: $brand-pink;
       @include font-size(14px);
       line-height: 1.4em;
       margin-bottom: 0.3em;
@@ -948,7 +948,7 @@ h5 {
     @include mq($large) {
       display: block;
       position: absolute;
-      bottom: 9%;
+      bottom: 6%;
       right: -10%;
       width: 40%;
     }

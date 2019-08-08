@@ -52,6 +52,11 @@
     "company": "LinkedIn"
   },
   {
+    "name": "Javier Brines Garcia",
+    "company": "BAMT",
+    "nogoogle": true
+  },
+  {
     "name": "John Saxton",
     "company": "Amazon Web Services"
   },

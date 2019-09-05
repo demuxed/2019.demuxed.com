@@ -109,7 +109,8 @@
     "title": "AV1 at Netflix",
     "description": "AV1 is a video codec that was finalized by the Alliance for Open Media in June 2019. At Netflix, we believe that the AV1 ecosystem would benefit from an alternative clean and efficient encoder implementation. Having this vision, we have been jointly working with Intel on SVT-AV1 since August 2018. SVT-AV1 is an efficient open-source software encoder that can fully utilize the available system resources and, therefore, reduces the encoding time while delivering high compression efficiency. We believe that SVT-AV1 can be used for experiments on improving AV1 encoding and possibly as a platform for future video coding standards development, such as the research and development efforts towards AV2. To make this possible, we are implementing unit tests, a decoder that shares common code with the encoder, and worked on certain architectural changes. \n\nAnother aspect of codec adoption is content availability in this format. As was announced earlier, Netflix is planning to use AV1 for streaming to provide our members with a better viewing experience. At Netflix, we have been working towards making AV1 bitstreams available for testing and streaming. In this talk, we present the current status of AV1 deployment at Netflix and discuss practical aspects of using AV1 in an on-demand streaming service. ",
     "speakers": [
-      "Andrey Norkin"
+      "Andrey Norkin",
+      "Liwei Guo"
     ]
   },
   "reinforcement-learning-for-abr": {
@@ -175,8 +176,8 @@
       "Guido Meardi"
     ]
   },
-  "qoe-impact-from-router-buffer-sizing-and-active-queue-management-subtitle-observations-from-netflix": {
-    "title": "QoE Impact from Router Buffer sizing and Active Queue Management (subtitle: Observations from Netflix)",
+  "qoe-impact-from-router-buffer-sizing-and-active-queue-management": {
+    "title": "QoE Impact from Router Buffer sizing and Active Queue Management",
     "description": "Have you heard about bufferbloat? Bufferbloat happens when network equipments buffer too many packets under congestion, causing undesirably high latency in the network. \n\nIn this talk, we will share our QoE observations based on our experiments with various router buffer size in our backbone routers and applying active queue management (AQM) in home routers. Our results show that when setting the router buffer size appropriately, we not only reduce latency (by 1 second on median), but we also greatly improve interruption rate (by 30%). \n\nSettings inside network routers often seem unrelated from video quality, but in fact they have tremendous amount of impact on QoE. We hope this talk can draw more attention from the video community on the importance of router buffer management in various networks. ",
     "speakers": [
       "Te-Yuan Huang"
@@ -190,7 +191,7 @@
     ]
   },
   "doing-serverside-ad-insertion-on-live-sports-for-253m-concurrent-users": {
-    "title": "Doing Server-Side Ad Insertion on LIVE Sports for 25.3M Concurrent Users",
+    "title": "Doing Server-Side Ad Insertion on Live Sports for 25.3M Concurrent Users",
     "description": "What’s really the biggest streaming event ever? Superbowl? What could be bigger? Felix’s jump from the stratosphere? Fifa World Cup of 2018?\n\n\nLet me introduce you to, India and it’s Cricket fans. In 2019, there were two large cricket tournaments earlier this year - IPL & ICC World Cup 2019. Combined together we had 100+ games across 8 different teams each lasting for 4-10 hours with a lot of action. Cricket attracts about 600M+ users alone in India over broadcast.  But that's just half the story -\n\n\nBoth of these events were streamed live to an audience of >100 million users per match that peaked in the 2019 Season Semi-final at 25.3 million concurrent users across 10 platforms and diverse carrier networks from 2G to 4G & broadband. Now that's another story - but not the story we want to tell in this talk -\n\n\nEach of these games has the most intense Ad Serving schedule with over a 100 ad breaks of 4 kinds,  serving an audience of  >100 million Unique Video Viewers in about 5-10 hours adding up to - an inventory of over 2 Billion Ad Impressions served. Even more exciting is that these impressions are served for over 100 different brands with complex targeting rules including demographics like Age groups, Gender, Location and Language.\n\n\nWelcome to Hotstar, India’s youngest and smallest team of engineers who dare.\n\n\nI am Ashutosh Agarwal, Architect & Lead Engineer of our SSAI Technology. I would present a day in the life of Ad Serving in an IPL/WorldCup Game via our SSAI service.\n\n\nAbout the talk\n\n\nThis talk will cover the following elements: \n\n\nOverview of live streaming in India - In India, people consuming live sports come from all the parts, from metros to rural areas. This means that network connections are very choppy and unpredictable.\n\n\nChallenges with client-side insertion on the cricket - In cricket, the ad break pattern and duration are unpredictable, making this simple ad-insertion more complex\n\n\nDesigning Server-side ad insertion using cohort technique to make it operate at scale, without introducing any latency from live action on the field. \n\n\nBuilding a real-time feedback system for near accurate delivery of ads at this scale of operation.\n\n\nFuture of Live sports ad insertion at hotstar - Automating the entire playout operations.\n\n\nReferences: \n\nTweet from CEO of Akamai: \n\nIPL Finals - 18.6M  https://twitter.com/TomLeightonAKAM/status/1127989661023051777\n\nWC Semi-final - 25.3M https://twitter.com/TomLeightonAKAM/status/1149130781052350464",
     "speakers": [
       "Ashutosh Agrawal"

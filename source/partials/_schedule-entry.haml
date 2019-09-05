@@ -19,4 +19,4 @@
       - elsif session.sponsor_image
         %span.sponsored-by
           Sponsored by:
-          = link_to(image_tag(session.sponsor_image, alt: "Facebook", class: ''), 'https://facebook.com?ref=demuxed', target: '_blank', rel: "noopener noreferrer")
+          = link_to(image_tag(session.sponsor_image, alt: session.sponsor_alt_tag, class: ''), session.sponsor_url, target: '_blank', rel: "noopener noreferrer")

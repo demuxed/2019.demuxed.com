@@ -53,6 +53,9 @@
     {
       "start": "12:25",
       "end": "13:45",
+      "sponsor_image": "sponsor-logos/prime-video.png",
+      "sponsor_url": "https://www.primevideo.com/?ref=demuxed",
+      "sponsor_alt_text": "Amazon Prime Video",
       "title": "Lunch"
     }
   ],
@@ -177,6 +180,9 @@
     {
       "start": "12:50",
       "end": "14:00",
+      "sponsor_image": "sponsor-logos/encodingdotcom.png",
+      "sponsor_url": "https://www.encoding.com/?ref=demuxed",
+      "sponsor_alt_text": "Encoding.com",
       "title": "Lunch"
     }
   ],

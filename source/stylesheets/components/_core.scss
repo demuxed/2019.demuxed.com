@@ -441,6 +441,10 @@ h5 {
   }
 
   .section-heading {
+    font-family: $default-serif;
+    text-transform: uppercase;
+    @include font-size(75px);
+
     @include mq($large) {
       span {
         margin-right: -10em;
@@ -748,8 +752,11 @@ h5 {
   }
 
   .section-heading {
+    font-family: $default-serif;
+    text-transform: uppercase;
+    @include font-size(50px);
     @include mq($large) {
-      @include font-size(130px);
+      @include font-size(75px);
       text-align: left;
       padding-left: 8%;
       //background-color: green;
@@ -1044,6 +1051,23 @@ h5 {
     @include purple-divider-left;
   }
 
+  .speaker-photo3 {
+    display: none;
+
+    @include mq($large) {
+      display: block;
+      position: absolute;
+      bottom: 7%;
+      left: 4%;
+      width: 32%;
+      z-index: 5;
+    }
+
+    @include mq($wide) {
+      //right: -5%;
+    }
+  }
+
   .section-heading {
     font-family: $default-serif;
     text-transform: uppercase;
@@ -1082,7 +1106,7 @@ h5 {
     @include mq($med-large) {
       display: block;
       position: absolute;
-      bottom: 10%;
+      bottom: 20%;
       left: 4%;
     }
   }
@@ -1091,8 +1115,21 @@ h5 {
     @include mq($med-large) {
       display: block;
       position: absolute;
-      bottom: 13%;
+      bottom: 15%;
       left: 10%;
+    }
+  }
+
+  .schedule-box3 {
+    display: none;
+
+    @include mq($med-large) {
+      display: block;
+      position: absolute;
+      left: 31%;
+      bottom: 4%;
+      width: 120px;
+      height: 120px;
     }
   }
 
@@ -1103,13 +1140,19 @@ h5 {
       @include white-divider-left;
     }
 
+    .container {
+      @include mq($large) {
+        padding-bottom: 1em;
+      }
+    }
+
     .schedule-text {
       @include mq($large) {
         text-align: left;
         display: inline-block;
         width: 34%;
         vertical-align: top;
-        margin-top: 27%;
+        margin-left: 40%;
       }
 
       @include mq($xl-large) {
@@ -1129,6 +1172,55 @@ h5 {
     }
   }
 
+  .schedule-day-one-2019 {
+    background-color: lighten($brand-grey, 43%);
+
+    @include mq($large) {
+      // @include white-divider-left;
+    }
+
+    .container {
+      @include mq($large) {
+        padding-top: 0;
+        padding-bottom: 2em;
+      }
+    }
+
+    .schedule-text-new {
+      @include mq($large) {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+        margin-bottom: 4em;
+      }
+
+      &.pm {
+        margin-bottom: 2em;
+
+        @include mq($large) {
+          margin-top: 4.3em;
+        }
+      }
+    }
+
+    .schedule-list {
+      @include mq($large) {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+        margin-bottom: 4em;
+      }
+
+      &.pm {
+        margin-bottom: 2em;
+
+        @include mq($large) {
+          margin-top: 4.3em;
+        }
+      }
+    }
+  }
+
   .schedule-day-two {
     @include mq($large) {
       @include grey-divider-right;
@@ -1136,7 +1228,8 @@ h5 {
 
     .container {
       @include mq($large) {
-        padding-top: 8em;
+        padding-top: 4em;
+        padding-bottom: 2em;
       }
     }
 
@@ -1166,8 +1259,9 @@ h5 {
     }
 
     @include mq($medium) {
-      max-width: 55%;
       margin: 0 auto 4em auto;
+      max-width: 55%;
+      text-align: left;
     }
 
     h2 {

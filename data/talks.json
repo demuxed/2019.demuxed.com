@@ -14,7 +14,7 @@
     ]
   },
   "the-dos-and-donts-about-streaming-security--confessions-from-a-signal-hacking-expert": {
-    "title": "The DOs and DONTs about Streaming security - Confessions from a signal hacking expert",
+    "title": "The do's and don'ts about Streaming security - Confessions from a signal hacking expert",
     "description": "This is the extension of a short talk I did for the BCN Video Tech Meetup, which you can find here:\nhttps://youtu.be/YRyRdgLAzpg\n\nIt's a mixed talk, between technical and business point of view of the topic. The Dos are splitted into two: tech side & non-tech side, and same for the don'ts.\n\nAs I work daily hacking streams for monitoring reasons, I record streams from 7000 stations (TV and Radio channels). This presentation is an explanation of the weakness of some securities, against the strenghs of some techniques, based from my expertise on how much difficult is for our team to hack a signal.\n\nWhich streams are unhackable? Which securities are recommended? Which securities doesn't work at all? How some securities are bypassed? \n\nIn this longer version of the talk we'll dig further into technical details with real life examples.\n\nFirstly in the presentation we see the does and don'ts on the technical side, with some responses to the previous questions. \nWe'll show how to extract URL parameters from IPTV broadcastings that are using some blockings and/or encryptions.\n\nSecondly, we'll talk about the subject from the non-tech point of view: how piracy can affect the companies, how to struggle it, and some recommendations about the topic. I will include 2 use cases, one is Rojadirecta.com website in Spain (which used to be an illegal football streams website) and the other one is about Game of Thrones (HBO's famous TV series and most pirated TV show of the history).\n\nAnd thirdly, we will end with the conclussions and recommendations.",
     "speakers": [
       "Javier Brines Garcia"
@@ -83,8 +83,8 @@
       "Mickie Betz"
     ]
   },
-  "designing-for-live-steam-failure-with-seamless-switching": {
-    "title": "Designing for Live Steam Failure with Seamless Switching",
+  "designing-for-live-stream-failure-with-seamless-switching": {
+    "title": "Designing for Live Stream Failure with Seamless Switching",
     "description": "Designing for failure is a well-known principle for cloud architectures. When applied to live streaming, this is even more important, as not only do you want your stream to continue through any resource failures or issues, you also want seamless audience experience to be maintained with no gaps in the coverage, so viewers never even notice potential issues. To achieve this level of resilience, you need a distributed system with redundancy and synchronization between encoding resources so any switching between them can graceful and invisible to anyone watching the output. In this talk, John Saxton, Senior Software Development Engineer at AWS Elemental, will dive into the world for live encoder synchronization and how that differs for on-premises and cloud native implementations, and future applications of the technology in critical live streaming scenarios.",
     "speakers": [
       "John Saxton",

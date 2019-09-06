@@ -62,6 +62,18 @@
       padding: 3em;
     }
 
+    @include mq($tiny) {
+      max-width: 27em;
+    }
+
+    @include mq($tiny-small) {
+      max-width: 27em;
+    }
+
+    @include mq($small) {
+      max-width: 27em;
+    }
+
     .speakers-list__img-wrap {
       display: inline-block;
       width: 80px;

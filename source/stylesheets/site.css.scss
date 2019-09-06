@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Setup */
+// Setup
 @import "settings";
 @import "generic/mixins";
 @import "default/normalize";
@@ -8,7 +8,7 @@
 @import "hacks/clearfix";
 @import "generic/helpers";
 
-/* Site */
+// Site
 @import "components/core";
 @import "components/modal";
 @import "components/animations";

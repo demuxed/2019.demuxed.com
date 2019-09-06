@@ -31,10 +31,6 @@
     overflow-y: scroll;
   }
 
-  @include mq($medium) {
-    //position: fixed;
-  }
-
   .speakers {
     display: flex;
     justify-content: space-around;
@@ -52,38 +48,25 @@
     padding: 2em;
     margin: 1em;
     text-align: center;
-    max-width: 33em;
+    max-width: 27em;
     position: relative;
     display: inline-block;
     overflow-wrap: break-word;
-    word-wrap: break-word;
+    word-break: break-word;
 
-    @include mq($large) {
+    @include mq($medium) {
       padding: 3em;
-    }
-
-    @include mq($tiny) {
-      max-width: 27em;
-    }
-
-    @include mq($tiny-small) {
-      max-width: 27em;
-    }
-
-    @include mq($small) {
-      max-width: 27em;
+      max-width: 33em;
     }
 
     .speakers-list__img-wrap {
       display: inline-block;
       width: 80px;
-      //height: 80px;
       margin-bottom: 1em;
       background-color: $brand-purple;
     }
 
     .speakers-list__img {
-      //width: 100%;
       mix-blend-mode: luminosity;
 
       &:before {

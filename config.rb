@@ -1,6 +1,4 @@
-###
 # Page options, layouts, aliases and proxies
-###
 
 Time.zone = "UTC"
 
@@ -8,7 +6,6 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/animated-hero.html", layout: false
-
 
 # General configuration
 
@@ -25,10 +22,7 @@ configure :build do
   activate :asset_hash
 end
 
-
-###
 # Helpers
-###
 
 set :haml, { :ugly => true, :format => :html5 }
 set :markdown_engine, :redcarpet

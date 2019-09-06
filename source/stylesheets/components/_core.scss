@@ -1,4 +1,4 @@
-/* Page Core / Structure */
+// Page Core / Structure
 html {
   font-family: $default-serif;
   font-size: 100%;
@@ -36,8 +36,7 @@ a {
   }
 }
 
-//base styles for main content
-
+// Base styles for main content
 h1,
 h2,
 h3,
@@ -178,7 +177,6 @@ h5 {
     @include font-size(20px);
     line-height: 1.6em;
     max-width: 65%;
-    //margin-bottom: 3em;
   }
 
   span {
@@ -200,12 +198,9 @@ h5 {
   background-color: $brand-purple;
   color: #fff;
   overflow: hidden;
-  //  z-index: 0;
-  //  position: relative;
 
   .container {
     @extend %clearfix;
-    //position: relative;
     padding-top: 1em;
     max-width: 87.5em;
 
@@ -260,7 +255,6 @@ h5 {
     @include font-size(30px);
     line-height: 1em;
     margin-bottom: 0.6em;
-    //text-align: center;
     font-weight: 700;
 
     @include mq($med-large) {
@@ -287,7 +281,6 @@ h5 {
     @include font-size(16px);
     line-height: 1.4em;
     margin-bottom: 1em;
-    //text-align: center;
 
     @include mq($small) {
       @include font-size(16px);
@@ -327,11 +320,9 @@ h5 {
     @include mq($small) {
       padding: 1em 0.7em;
       max-width: 14em;
-      //margin-bottom: 2em;
     }
 
     @include mq($medium) {
-      //margin-bottom: 4em;
     }
   }
 
@@ -342,7 +333,6 @@ h5 {
     @include font-size(14px);
     margin-bottom: 2em;
     letter-spacing: 0.2em;
-    // display: inline-block;
     @include transition-all;
     border-bottom: solid $brand-pink 2px;
     padding-bottom: 0.2em;
@@ -397,16 +387,8 @@ h5 {
     }
 
     @include mq($xl-large) {
-      //right: 14%;
     }
   }
-
-  //  .hero-illustration-mobile {
-  //    display: block;
-  //    @include mq($medium) {
-  //      display: none;
-  //    }
-  //  }
 
   .hero-illustration {
     display: inline-block;
@@ -511,7 +493,6 @@ h5 {
     }
 
     @include mq($wide) {
-      //left: 8%;
     }
   }
 
@@ -730,7 +711,6 @@ h5 {
     }
     .share-box__text {
       @include font-size(20px);
-      //font-family: $headline-font;
       letter-spacing: 0.2em;
       text-transform: uppercase;
 
@@ -742,7 +722,6 @@ h5 {
 }
 
 .speakers {
-  //display: none;
   overflow: hidden;
 
   .container {
@@ -759,11 +738,8 @@ h5 {
       @include font-size(75px);
       text-align: left;
       padding-left: 8%;
-      //background-color: green;
 
       span {
-        //margin-right: -10em;
-
         &:before {
           content: "";
           display: inline-block;
@@ -782,7 +758,6 @@ h5 {
 
   .speakers-list {
     text-align: center;
-    //max-width: 1100px;
     margin: 0 auto;
 
     @include mq($large) {
@@ -814,17 +789,9 @@ h5 {
       @include mq($large) {
         width: 21%;
         text-align: left;
-
-        //        margin-left: 1.5%;
-        //        margin-right: 1.5%;
-        //        margin-bottom: 2em;
-        //min-height: 422px;
       }
 
       @include mq($xl-large) {
-        //        padding: 2em 1.6em;
-        //        width: 15em;
-        //        margin: 0 0.6em 1.6em 0.6em;
       }
 
       &.blank {
@@ -861,9 +828,6 @@ h5 {
       }
 
       @include mq($large) {
-        //        position: absolute;
-        //        top: 1.3em;
-        //        right: 1.6em;
       }
     }
 
@@ -896,13 +860,6 @@ h5 {
       .joint {
         @include font-size(10px);
       }
-
-      //      @include mq($large) {
-      //        @include font-size(19px);
-      //        line-height: 1.5em;
-      //        margin-bottom: 1em;
-      //        padding-left: 1em;
-      //      }
     }
 
     .speakers-list__btn {
@@ -975,7 +932,6 @@ h5 {
     }
 
     @include mq($wide) {
-      //right: -5%;
     }
   }
 
@@ -1064,7 +1020,6 @@ h5 {
     }
 
     @include mq($wide) {
-      //right: -5%;
     }
   }
 
@@ -1176,7 +1131,6 @@ h5 {
     background-color: lighten($brand-grey, 43%);
 
     @include mq($large) {
-      // @include white-divider-left;
     }
 
     .container {
@@ -1316,7 +1270,6 @@ h5 {
         }
 
         @include mq($medium) {
-          //width: 48%;
         }
       }
 
@@ -1335,7 +1288,6 @@ h5 {
         }
 
         @include mq($medium) {
-          //width: 49%;
         }
 
         &::before {
@@ -1450,7 +1402,6 @@ h5 {
       @include font-size(30px);
       text-align: left;
       margin-left: 50%;
-      //margin-top: -10%;
 
       span {
         @include font-size(50px);
@@ -1473,7 +1424,6 @@ h5 {
 
   .container {
     position: relative;
-    //max-width: 70em;
 
     @include mq($medium) {
       padding-bottom: 0;
@@ -1610,8 +1560,6 @@ h5 {
       @include font-size(30px);
       text-align: left;
       margin-bottom: 6em;
-      //margin-left: 50%;
-      //margin-top: -10%;
 
       span {
         @include font-size(50px);
@@ -1829,7 +1777,6 @@ h5 {
       text-align: left;
       margin-bottom: 4em;
       margin-left: 60%;
-      //margin-top: -10%;
 
       span {
         @include font-size(50px);

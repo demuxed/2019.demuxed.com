@@ -1058,6 +1058,8 @@ h5 {
   }
 
   .schedule-box1 {
+    display: none;
+
     @include mq($med-large) {
       display: block;
       position: absolute;
@@ -1067,6 +1069,8 @@ h5 {
   }
 
   .schedule-box2 {
+    display: none;
+
     @include mq($med-large) {
       display: block;
       position: absolute;
@@ -1078,7 +1082,7 @@ h5 {
   .schedule-box3 {
     display: none;
 
-    @include mq($med-large) {
+    @include mq($large) {
       display: block;
       position: absolute;
       left: 31%;

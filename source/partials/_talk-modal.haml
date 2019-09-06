@@ -18,5 +18,5 @@
                   = image_tag("https://demuxed-headshots-experiment.imgix.net/#{speaker.name.downcase.split(' ').join('-')}.jpg?w=200&h=200&fit=facearea&facepad=2&auto=format,compress&q=70", alt: "", class: "speakers-list__img")
               %h3.speakers-list__name= speaker.name
               %h4.speakers-list__company= speaker.company
-
+        %h3.talk-title #{details.title}
         .content= Tilt['markdown'].new { details.description }.render

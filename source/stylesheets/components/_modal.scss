@@ -31,6 +31,11 @@
     overflow-y: scroll;
   }
 
+  .talk-title {
+    color: $brand-pink;
+    padding-bottom: 0.5em;
+  }
+
   .speakers {
     display: flex;
     justify-content: space-around;

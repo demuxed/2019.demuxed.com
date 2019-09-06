@@ -13,10 +13,10 @@
     - else
       = speaker.name
     %h4.speakers-list__company= speaker.company
-    -# %p.speakers-list__talk-title
-    -#   = data.talks[speaker.talk].title
-    -#   - if data.talks[speaker.talk].speakers.length > 1
-    -#     %span.joint (joint talk)
-    -# %a.speakers-list__btn.talk-modal-link{data: {custom: {open: speaker.talk}}} Talk Overview
+    %p.speakers-list__talk-title
+      = data.talks[speaker.talk].title
+      - if data.talks[speaker.talk].speakers.length > 1
+        %span.joint (joint talk)
+    %a.speakers-list__btn.talk-modal-link{data: {custom: {open: speaker.talk}}} Talk Overview
 - else
   %li.speakers-list__card

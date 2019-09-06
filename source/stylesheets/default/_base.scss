@@ -1,23 +1,41 @@
-/* Base / Defaults */
+// Base / Defaults
 * {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-dl, dd, ol, ul,
-form, fieldset, legend,
-table, th, td, caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+table,
+th,
+td,
+caption,
 hr {
   margin: 0;
   padding: 0;
 }
 
-abbr[title], dfn[title]{
+abbr[title],
+dfn[title] {
   cursor: help;
 }
 
-a, u, ins {
+a,
+u,
+ins {
   text-decoration: none;
 }
 
@@ -29,7 +47,8 @@ ins {
   border-bottom: 1px solid;
 }
 
-object, img {
+object,
+img {
   font-style: italic;
   vertical-align: middle;
   max-width: 100%;

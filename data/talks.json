@@ -50,7 +50,7 @@
   },
   "hevc-upload-experiments": {
     "title": "HEVC Upload Experiments",
-    "description": "We tried HEVC for iOS video uploads. With claims of up to 2x better compression than H.264, we were anticipating huge bandwidth savings. Through manual testing as well as with millions of videos in production, we couldn't achieve the same quality (SSIM) as H264, even at identical bitrates. We exhausted the few settings that Apple exposes through their API, and filed a number of radars in the process.\n\nIt seems that the range of bitrates and resolutions we operate within are either not tested by or not interesting to Apple.",
+    "description": "We tried HEVC for iOS video uploads. With claims of up to 2x better compression than H.264, we were anticipating huge bandwidth savings. Through manual testing as well as with millions of videos in production, we couldn't achieve the same quality (SSIM) as H264, even at identical bitrates. We exhausted the few settings that Apple exposes through their API, and filed a number of radars in the process.",
     "speakers": [
       "Chris Ellsworth"
     ]

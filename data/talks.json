@@ -41,6 +41,13 @@
       "Richard Fliam"
     ]
   },
+  "rtmp-web-video-innovation-or-web-10-hack-how-did-we-get-to-now": {
+    "title": "RTMP: web video innovation or Web 1.0 hack… how did we get to now?",
+    "description": "One of the creators of RTMP will take you back to a time before Firefox, Safari, and Chrome, when Internet Explorer was used by 92% of people on the Web, and over 98% of browsers had Flash installed.  RTMP was first prototyped in late 1999 and released in July 2002.  Sarah Allen will share the untold story of the origins of this protocol  — careful design choices and unexpected hacks that led to a de-facto standard that still drives the majority of live web video today.",
+    "speakers": [
+      "Sarah Allen"
+    ]
+  },
   "largescale-media-archive-migration-to-the-cloud": {
     "title": "Large-Scale Media Archive Migration to the Cloud",
     "description": "We've spent about 1.5 years building a cloud-based microservice platform for media supply chain, and at the same time moving close to 40 petabytes of content to cloud based storage and archive. \n\nIf you're watching studio content at home (cable, OTT, broadcast, mobile) or at a theater, it's probably originated from our archive.\n\nThe goal of this talk is to detail exactly how we accomplished this (we are a small team of less than a dozen people, with 130+ developers deploying services to manipulate content on top of our platform), and how we built cloud native infrastructure to ingest, secure, package, prep, transcode, apply machine learning to remove human operators, and deliver this content at a volume of about 5 petabytes of delivered media per month.\n\nMetrics are important, so we'll show as many of those as possible, as well as inventive ways to configure and use cloud storage and services to move and process content at this scale, and some of the 'uh oh' moments we ran into.",

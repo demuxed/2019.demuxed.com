@@ -71,6 +71,11 @@
     "nogoogle": true
   },
   {
+    "name": "Jean-Baptiste Louazel",
+    "company": "Streamroot",
+    "talk": "building-an-automated-testing-suite-how-to-gain-confidence-that-your-release-will-not-break-playback-for-any-platformplayerosformat-combination"
+  },
+  {
     "name": "John Saxton",
     "company": "Amazon Web Services",
     "talk": "designing-for-live-stream-failure-with-seamless-switching"

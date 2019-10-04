@@ -80,7 +80,8 @@
     "title": "Building an automated testing suite: How to gain confidence that your release will not break playback for any platform/player/OS/format combination",
     "description": "This is a DIY guide to building a multi-platform, multi-browser, multi-stream-format, multi-player, multi-everything tester for client-side video software. Instead of relying on manual testing (aka. interns) to identify issues, automated testing can save time and help focus teams on solving problems instead of discovering them. We walk you through the different building blocks of an integration testing tool: a grammar to describe video scenarios, an API able to access all variables (player versions, media engine versions, stream formats, etc.), an environment generator that can spin up a player with any combination of your chosen variables, a scheduler that launch pages on different platforms, and a way to gather results. We look at what we’ve achieved so far with this setup, the limitations on what is testable and what’s coming up next.",
     "speakers": [
-      "Charles Sonigo"
+      "Charles Sonigo",
+      "Jean-Baptiste Louazel"
     ]
   },
   "edge-compute": {

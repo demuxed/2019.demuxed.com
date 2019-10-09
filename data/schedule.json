@@ -128,10 +128,15 @@
     {
       "start": "18:20",
       "end": "18:35",
-      "title": "Coming Soon"
+      "talk": "apple-lowlatency-hls-update"
     }
   ],
   "day_2_morning": [
+    {
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Women's Breakfast"
+    },
     {
       "start": "10:00",
       "end": "10:25",

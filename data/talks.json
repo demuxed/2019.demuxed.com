@@ -80,14 +80,15 @@
     "title": "Building an automated testing suite: How to gain confidence that your release will not break playback for any platform/player/OS/format combination",
     "description": "This is a DIY guide to building a multi-platform, multi-browser, multi-stream-format, multi-player, multi-everything tester for client-side video software. Instead of relying on manual testing (aka. interns) to identify issues, automated testing can save time and help focus teams on solving problems instead of discovering them. We walk you through the different building blocks of an integration testing tool: a grammar to describe video scenarios, an API able to access all variables (player versions, media engine versions, stream formats, etc.), an environment generator that can spin up a player with any combination of your chosen variables, a scheduler that launch pages on different platforms, and a way to gather results. We look at what we’ve achieved so far with this setup, the limitations on what is testable and what’s coming up next.",
     "speakers": [
-      "Charles Sonigo"
+      "Charles Sonigo",
+      "Jean-Baptiste Louazel"
     ]
   },
   "edge-compute": {
     "title": "Edge Compute",
     "description": "Edge computing is a networking philosophy focused on bringing computing as close to the source of data as possible in order to reduce latency and bandwidth use. Using edge computing, you can move decision making in front of the CDN cache, allowing to run code for each HTTP request without additional load on origin servers. This could allow a level of control of the cache, requests, manifests that are traditionally thought to be out of reach allowing new experiences and solutions to existing problems.\n\nWe’ve been using edge computing for 3 years in production with video workloads to manage our delivery, encoding and ingest workflow and think it might be interesting to share some common patterns we think it might be useful for the rest of the community.",
     "speakers": [
-      "Mickie Betz"
+      "Kyle Boutette"
     ]
   },
   "designing-for-live-stream-failure-with-seamless-switching": {

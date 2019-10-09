@@ -71,6 +71,11 @@
     "nogoogle": true
   },
   {
+    "name": "Jean-Baptiste Louazel",
+    "company": "Streamroot",
+    "talk": "building-an-automated-testing-suite-how-to-gain-confidence-that-your-release-will-not-break-playback-for-any-platformplayerosformat-combination"
+  },
+  {
     "name": "John Saxton",
     "company": "Amazon Web Services",
     "talk": "designing-for-live-stream-failure-with-seamless-switching"
@@ -79,6 +84,11 @@
     "name": "Konstantin Wilms",
     "company": "Deluxe",
     "talk": "largescale-media-archive-migration-to-the-cloud"
+  },
+  {
+    "name": "Kyle Boutette",
+    "company": "Cloudflare",
+    "talk": "edge-compute"
   },
   {
     "name": "Liwei Guo",
@@ -99,11 +109,6 @@
     "name": "Michael Hill",
     "company": "Twitter",
     "talk": "a-stateless-service-for-audio-processing"
-  },
-  {
-    "name": "Mickie Betz",
-    "company": "Cloudflare",
-    "talk": "edge-compute"
   },
   {
     "name": "Nick Chadwick",

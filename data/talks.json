@@ -88,7 +88,7 @@
     "title": "Edge Compute",
     "description": "Edge computing is a networking philosophy focused on bringing computing as close to the source of data as possible in order to reduce latency and bandwidth use. Using edge computing, you can move decision making in front of the CDN cache, allowing to run code for each HTTP request without additional load on origin servers. This could allow a level of control of the cache, requests, manifests that are traditionally thought to be out of reach allowing new experiences and solutions to existing problems.\n\nWe’ve been using edge computing for 3 years in production with video workloads to manage our delivery, encoding and ingest workflow and think it might be interesting to share some common patterns we think it might be useful for the rest of the community.",
     "speakers": [
-      "Mickie Betz"
+      "Kyle Boutette"
     ]
   },
   "designing-for-live-stream-failure-with-seamless-switching": {

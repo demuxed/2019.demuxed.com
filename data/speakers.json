@@ -86,6 +86,11 @@
     "talk": "largescale-media-archive-migration-to-the-cloud"
   },
   {
+    "name": "Kyle Boutette",
+    "company": "Cloudflare",
+    "talk": "edge-compute"
+  },
+  {
     "name": "Liwei Guo",
     "company": "Netflix",
     "talk": "av1-at-netflix"
@@ -104,11 +109,6 @@
     "name": "Michael Hill",
     "company": "Twitter",
     "talk": "a-stateless-service-for-audio-processing"
-  },
-  {
-    "name": "Mickie Betz",
-    "company": "Cloudflare",
-    "talk": "edge-compute"
   },
   {
     "name": "Nick Chadwick",

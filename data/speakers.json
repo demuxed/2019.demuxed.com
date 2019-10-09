@@ -81,6 +81,12 @@
     "talk": "designing-for-live-stream-failure-with-seamless-switching"
   },
   {
+    "name": "Josh Tidsbury",
+    "company": "Apple",
+    "talk": "apple-lowlatency-hls-update",
+    "missingphoto": true
+  },
+  {
     "name": "Konstantin Wilms",
     "company": "Deluxe",
     "talk": "largescale-media-archive-migration-to-the-cloud"

@@ -128,6 +128,13 @@
       "Sahil Budhiraja"
     ]
   },
+  "apple-lowlatency-hls-update": {
+    "title": "Apple Low-Latency HLS Update",
+    "description": "Earlier this year, Apple announced Low-Latency HTTP Live Streaming, which significantly reduces the latency of live streams using industry-standard protocols and practices. The specification is evolving toward release, incorporating feedback from the community. Join Josh Tidsbury from Apple who will give an update on LL-HLS and address some common questions about it.",
+    "speakers": [
+      "Josh Tidsbury"
+    ]
+  },
   "the-challenges-of-deploying-apples-low-latency-hls-in-real-life": {
     "title": "The challenges of deploying Apple's Low Latency HLS In Real Life",
     "description": "In this presentation we will discuss our learnings in incorporating Apple's Low Latency-HLS into the delivery workflows we run for global live sports events.   \n\nThe talk will cover the challenges we faced, the choices we made, and our end-to-end solution for including Low Latency-HLS in our live event streaming service.  \n\nWe will discuss the challenges of building a brand new delivery specification, that's still influx, into a high-availability, fully featured service that is accessed by millions of subscribers who expect the very best live streaming experience. \n\nThe talk will include:\n\n-Using CMAF for ingest - what is the state of support in the transcoders we tested\n-Handling partial fragments \n-Playlist deltas\n-Adding in server side ad insertion,  closed captions, multi-track audio, and regionalisation\n-Challenges with player compatibility, working with beta releases and player feature roll-out and supporting app store releases\n-Testing approach - lab testing and live trials\n-Addressing user expectations - what are the major QOE issues -  and what was the user feedback\n-Dual stream support with and without low latency\n-Multiple manifests and supporting legacy players - how and where to manage manifest state - and how the players behave\n-Serving streams using HTTP 2.0 push \n-Multiple CDN support and integration \n-Blocking manifest reloads\n-And finally how fast is it - the minimum latency have we achieved",

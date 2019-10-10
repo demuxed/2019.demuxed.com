@@ -6,6 +6,11 @@
       "title": "Check-In"
     },
     {
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Women's Breakfast"
+    },
+    {
       "start": "09:45",
       "end": "10:00",
       "title": "Opening Remarks"
@@ -132,11 +137,6 @@
     }
   ],
   "day_2_morning": [
-    {
-      "start": "08:30",
-      "end": "09:30",
-      "title": "Women's Breakfast"
-    },
     {
       "start": "10:00",
       "end": "10:25",

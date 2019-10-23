@@ -20,6 +20,7 @@ configure :build do
   activate :minify_javascript
   activate :directory_indexes
   activate :asset_hash
+  ignore "/source/_redirects"
 end
 
 # Helpers

@@ -20,6 +20,14 @@ configure :build do
   activate :minify_javascript
   activate :directory_indexes
   activate :asset_hash
+
+  # Rename a file to enable Netlify redirects
+  after_build do |builder|
+    src = File.join(config[:source],"netlify_redirects")
+    dst = File.join(config[:build_dir],"_redirects")
+    builder.thor.source_paths << File.dirname(__FILE__)
+    builder.thor.copy_file(src,dst)
+  end
 end
 
 # Helpers

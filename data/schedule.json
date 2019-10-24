@@ -178,11 +178,6 @@
       "talk": "japanese-captions"
     },
     {
-      "start": "12:25",
-      "end": "12:50",
-      "talk": "a-paradigm-shift-in-codec-standards-mpeg5-part-2-lcevc-higher-quality-with-any-codec-maintaining-decoder-compatibility"
-    },
-    {
       "start": "12:50",
       "end": "14:00",
       "sponsor_image": "sponsor-logos/encodingdotcom.png",
@@ -194,16 +189,21 @@
   "day_2_afternoon": [
     {
       "start": "14:00",
-      "end": "15:00",
+      "end": "14:40",
       "title": "Lightning Talks"
     },
     {
-      "start": "15:00",
-      "end": "15:25",
+      "start": "14:40",
+      "end": "15:05",
       "talk": "qoe-impact-from-router-buffer-sizing-and-active-queue-management"
     },
     {
-      "start": "15:25",
+      "start": "15:05",
+      "end": "15:30",
+      "talk": "a-paradigm-shift-in-codec-standards-mpeg5-part-2-lcevc-higher-quality-with-any-codec-maintaining-decoder-compatibility"
+    },
+    {
+      "start": "15:30",
       "end": "15:40",
       "title": "Break"
     },

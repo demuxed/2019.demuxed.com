@@ -1,9 +1,5 @@
 # Page options, layouts, aliases and proxies
 
-# Set encoding to UTF-8 to handle non-ASCII characters
-Encoding.default_external = Encoding::UTF_8
-Encoding.default_internal = Encoding::UTF_8
-
 Time.zone = "UTC"
 
 page '/*.xml', layout: false

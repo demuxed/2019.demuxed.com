@@ -19,4 +19,5 @@
               %h3.speakers-list__name= speaker.name
               %h4.speakers-list__company= speaker.company
         %h3.talk-title #{details.title}
-        .content= Tilt['markdown'].new { details.description }.render
+        .content
+          %p!= details.description.gsub(/\n\n/, '<br><br>')

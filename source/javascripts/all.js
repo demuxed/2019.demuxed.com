@@ -13,7 +13,7 @@
 
   ready(function() {
     MicroModal.init({
-      onShow: modal => console.info(`${modal.id} is shown`),
+      onShow: function(modal) { console.info(modal.id + ' is shown'); },
       openTrigger: 'data-custom-open',
       closeTrigger: 'data-custom-close',
     });
